@@ -1,4 +1,4 @@
-# PyMOL4Spliceosome
+# PyMOL4Spliceosome: all spliceosome structures in one PyMOL session
 
 To download PyMOL session click on the Release button:
 
@@ -25,5 +25,20 @@ Not everything is perfect, expect some updates soon.
 See https://github.com/mmagnus/PyMOL4Spliceosome/releases
 
 and read more about the tool used to obtain this session: https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/README.md
+
+See releases for PyMOL sessions: https://github.com/mmagnus/rna-tools/releases
+
+## Quick reference
+
+	PyMOL>enable CWC15*
+	PyMOL>disable CWC15*
+
+Read more: https://pymolwiki.org/index.php/Enable
+
+## External
+
+You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/>
+
+
 
 
