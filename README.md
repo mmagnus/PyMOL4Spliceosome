@@ -1,6 +1,7 @@
 # PyMOL4Spliceosome
 
 To download PyMOL session click on the Release button:
+
 [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases)
 
 <a href="https://github.com/mmagnus/PyMOL4Spliceosome/releases"><img width="1283" alt="Screen Shot 2019-09-13 at 9 28 20 AM" src="https://user-images.githubusercontent.com/118740/64844794-e9aca900-d608-11e9-8191-379037eaaa3e.png"></a>
