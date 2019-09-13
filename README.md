@@ -31,7 +31,11 @@ See releases for PyMOL sessions: https://github.com/mmagnus/rna-tools/releases
 
 ## Select all U6
 
-![](demo-u6.gif)
+![](docs/demo-u6.gif)
+
+## Morph between two main conformations of U6
+
+![](docs/demo-u6-morph.gif)
 
 ## Tips
 
