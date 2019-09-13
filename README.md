@@ -8,12 +8,13 @@ To download PyMOL session click on the Release button:
 
 PyMOL session of 6 cryo-em structures: 
 
-- S2_Bact_5gm6
-- S3_C_5lj3
-- S4_Cstar_5mps
-- S5_P_6exn
-- S5_P_5ylz
-- S6_ILS_5y88 
+- B act complex 5gm6
+- C complex 5lj3
+- C star 5mps
+- P complex (two structures)
+    - 6exn
+    - 5ylz
+- ILS 5y88 
 
 The structures superimposed based on the U6 RNA.
 
