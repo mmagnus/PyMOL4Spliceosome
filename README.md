@@ -1,5 +1,7 @@
 # PyMOL4Spliceosome: all spliceosome structures in one PyMOL session
 
+**Tip: the session now is very big and it might slow your computer. We recommend to open it one, remove unnecessary things for your analysis and save it as a new session.**
+
 To download PyMOL session click on the Release button:
 
 [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases)
