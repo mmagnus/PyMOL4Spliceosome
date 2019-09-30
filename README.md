@@ -16,6 +16,7 @@ PyMOL session of 6 cryo-em structures:
     - 6exn
     - 5ylz
 - ILS 5y88
+- 6G90: Prespliceosome structure provides insight into spliceosome assembly and regulation (map A2)
 
 The structures superimposed based on the U6 RNA.
 
