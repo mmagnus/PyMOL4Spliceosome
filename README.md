@@ -57,3 +57,9 @@ Read more: https://pymolwiki.org/index.php/Enable
 ## External
 
 You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/>
+
+# Acknowledge
+
+ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
+
+M.M. was supported by the "Regenerative Mechanisms for Health-ReMedy" grant MAB/20172, carried out within the International Research Agendas Program of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund.
