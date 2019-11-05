@@ -4,22 +4,9 @@
 
 **Tip: the session now is very big and it might slow your computer. We recommend to open it one, remove unnecessary things for your analysis and save it as a new session.**
 
-To download the latest release of structures click on the Release button: [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases)
+Processed PyMOL session of cryo-em structures, see https://github.com/mmagnus/PyMOL4Spliceosome/releases to learn more about current stage of the project.
 
 <a href="https://github.com/mmagnus/PyMOL4Spliceosome/releases"><img width="1283" alt="Screen Shot 2019-09-13 at 9 28 20 AM" src="https://user-images.githubusercontent.com/118740/64844794-e9aca900-d608-11e9-8191-379037eaaa3e.png"></a>
-
-Processed PyMOL session of cryo-em structures:
-
-- B complex 5zwo
-- B act complex 5gm6
-- C complex 5lj3
-- C star 5mps
-- P complex:
-    - 6exn
-    - 5ylz
-- ILS 5y88
-- 6G90: Prespliceosome structure provides insight into spliceosome assembly and regulation (map A2)
-- and more, see https://github.com/mmagnus/PyMOL4Spliceosome/releases to learn more about current stage of the project.
 
 The structures superimposed based on the U6 RNA (if possible)
 
