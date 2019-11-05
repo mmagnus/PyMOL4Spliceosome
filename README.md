@@ -1,10 +1,10 @@
 # PyMOL4Spliceosome: all spliceosome structures in one PyMOL session
 
+[![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_tools) [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnusPyMOL4Spliceosome.svg/releases) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3529267.svg)](http://dx.doi.org/10.5281/zenodo.3529267)
+
 **Tip: the session now is very big and it might slow your computer. We recommend to open it one, remove unnecessary things for your analysis and save it as a new session.**
 
-To download PyMOL session click on the Release button:
-
-[![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases)
+To download the latest release of structures click on the Release button: [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases)
 
 <a href="https://github.com/mmagnus/PyMOL4Spliceosome/releases"><img width="1283" alt="Screen Shot 2019-09-13 at 9 28 20 AM" src="https://user-images.githubusercontent.com/118740/64844794-e9aca900-d608-11e9-8191-379037eaaa3e.png"></a>
 
