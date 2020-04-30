@@ -13,6 +13,7 @@ https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330
 Processed PyMOL session of cryo-em structures, see https://github.com/mmagnus/PyMOL4Spliceosome/releases to learn more about current stage of the project.
 
 <a href="https://github.com/mmagnus/PyMOL4Spliceosome/releases"><img width="1283" alt="Screen Shot 2019-09-13 at 9 28 20 AM" src="https://user-images.githubusercontent.com/118740/64844794-e9aca900-d608-11e9-8191-379037eaaa3e.png"></a>
+(BTW, the intron here is in black, it's fixed in the version 0.31, now the intron is in gray)
 
 The structures superimposed based on the U6 RNA (if possible)
 
