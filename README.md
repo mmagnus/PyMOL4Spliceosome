@@ -1,6 +1,6 @@
 # PyMOL4Spliceosome: all spliceosome structures in one PyMOL session
 
-[![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_tools) [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3529267.svg)](http://dx.doi.org/10.5281/zenodo.3529267)
+[![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_tools) [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases) [![DOI](https://zenodo.org/badge/doi/10.1093/nar/gkz1108/5651330.svg)](http://dx.doi.org/10.1093/nar/gkz1108/5651330)
 
 This project is a part of my rna-tools, so please cite this paper if you find this repository useful for you:
 
@@ -52,7 +52,7 @@ Read more: https://pymolwiki.org/index.php/Enable
 
 You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/>
 
-# Acknowledge
+# Acknowledgement
 
 ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
 
