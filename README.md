@@ -46,6 +46,8 @@ and read more about the tool used to obtain this session: https://github.com/mma
     # select only some objects and save it to the file
     save /Users/magnus/Desktop/XXXX_triplex_zoom.pse, CXXX_P and U2_P and U6_P
 
+    select U4* and resi 68-81
+    
 Read more: https://pymolwiki.org/index.php/Enable
 
 ## External
