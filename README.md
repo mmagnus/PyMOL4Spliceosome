@@ -52,7 +52,7 @@ Read more: https://pymolwiki.org/index.php/Enable
 
 ## External
 
-You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/>
+You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/> and here <https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions>
 
 # Acknowledgement
 
