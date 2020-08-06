@@ -52,6 +52,37 @@ Read more: https://pymolwiki.org/index.php/Enable
 
 You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/>
 
+## Aligned
+
+	save aligned/hB_6AHD.pdb, PRP_hB_6AHD
+	
+	align h3_6QW6 and chain 5A, PRP8_hB_6AHD
+	save 
+	
+	fetch 6QX9
+	align 6QX9 and chain 5A, PRP8_hB_6AHD	
+	save hBpre_6QX9.cif, 6QX9
+
+	fetch 6QW6
+	align 6QW6 and chain 5A, PRP8_hB_6AHD	
+	save h3_6QW6.cif, 6QW6
+
+## Rings as one object
+
+	extract Lsm_ring_h3_6QW6, (chain 62 and h3_6QW6) or (chain 64 and h3_6QW6)
+	
+	extract Lsm_ring_h3_6QW6, (chain 62 or chain 64) and h3_6QW6
+
+# Sandbox
+
+	PyMOL>select chain 5A and name hBpre_6QX9
+    Selector: selection "sele" defined with 0 atoms.
+
+# Changelog
+[dev]
+
+- Rings as one
+
 # Acknowledgement
 
 ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
