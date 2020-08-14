@@ -37,11 +37,11 @@ Source: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosom
 
 Update to the Table 1.
 
-| Complex   | Species | PDB ID | Resolution (Å) | Lab           | Reference               |
-|-----------|---------|--------|----------------|---------------|-------------------------|
-| Tri-snRNP | Human   | 6QW6   | 2.92           | Kiyoshi Nagai | Charenton et al. (2019) |
-| Pre-B     | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
-| B         | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+| x | Complex   | Species | PDB ID | Resolution (Å) | Lab           | Reference               |
+|---|-----------|---------|--------|----------------|---------------|-------------------------|
+| x | Tri-snRNP | Human   | 6QW6   | 2.92           | Kiyoshi Nagai | Charenton et al. (2019) |
+| x | Pre-B     | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+| x | B         | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
 
 Mechanism of 5' splice site transfer for human spliceosome activation. Charenton, C., Wilkinson, M.E., Nagai, K. (2019) Science 364: 362-367
 
