@@ -4,54 +4,166 @@
 
 This project is a part of my rna-tools, so please cite this paper if you find this repository useful for you:
 
-Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. 
-RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools. Nucleic Acids Research. 2019 10.1093/nar/gkz1108
-https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330
+	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. 
+	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, 
+	and evaluation tools. 
+	Nucleic Acids Research. 2019 10.1093/nar/gkz1108 
+<https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330>
 
-**Tip: the session now is very big and it might slow your computer. We recommend to open it one, remove unnecessary things for your analysis and save it as a new session.**
+Table of Contents
+=================
 
-Processed PyMOL session of cryo-em structures, see https://github.com/mmagnus/PyMOL4Spliceosome/releases to learn more about current stage of the project.
+* [Index](#index)
+  * [Yeast](#yeast)
+  * [Human](#human)
+* [Find your favorite protein\!](#find-your-favorite-protein)
+* [Examples of usage](#examples-of-usage)
+  * [Select all U6](#select-all-u6)
+  * [Morph between two main conformations of U6](#morph-between-two-main-conformations-of-u6)
+* [Tips](#tips)
+* [Quick reference](#quick-reference)
+* [External](#external)
+* [Notes](#notes)
+* [Changelog](#changelog)
+* [Acknowledgement](#acknowledgement)
+* [Supplements](#supplements)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+Processed PyMOL session of cryo-em structures, see <https://github.com/mmagnus/PyMOL4Spliceosome/releases> to learn more about current stage of the project.
+
+<big><b>The session now is very big and it might slow your computer. We recommend to open it one, remove unnecessary things for your analysis and save it as a new session.</b></big>
 
 <a href="https://github.com/mmagnus/PyMOL4Spliceosome/releases"><img width="1283" alt="Screen Shot 2019-09-13 at 9 28 20 AM" src="https://user-images.githubusercontent.com/118740/64844794-e9aca900-d608-11e9-8191-379037eaaa3e.png"></a>
 (BTW, the intron here is in black, it's fixed in the version 0.31, now the intron is in gray)
 
-The structures superimposed based on the U6 RNA (if possible)
+The structures superimposed based on the U6 RNA (if possible) or Prp8.
 
 Colors and chain mapping based on pyMoL_colors-EMX.xlsx prepared by Eysmont and Magnus.
 
 Not everything is perfect, expect some updates soon.
 
-See https://github.com/mmagnus/PyMOL4Spliceosome/releases
+See <https://github.com/mmagnus/PyMOL4Spliceosome/releases>
 
-and read more about the tool used to obtain this session: https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/README.md
+and read more about the tool used to obtain this session: <https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/>
 
 # Index
 
-All processed structures in this repository:
+All processed structures can be viewed and searched in this repository:
 
-https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/Spliceosome_PyMOL.csv
+<https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/Spliceosome_PyMOL.csv>
 
-![](docs/tab1_Zhao.jpeg)
 
-Source: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
+## Yeast
 
-Update to the Table 1.
+| x     | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
+|-------|-----------|---------------------------------------------|----------------|---------------|-------------------------|
+| x     | E         | [6N7P](https://www.rcsb.org/structure/6N7P) | 3.6            | Rui Zhao      | Li et al. (2019)        |
+| x     | E         | [6N7R](https://www.rcsb.org/structure/6N7R) | 3.20           | Rui Zhao      | Li et al. (2019)        |
+| x     | Tri-snRNP | [5GAN](https://www.rcsb.org/structure/5GAN) | 3.7            | Kiyoshi Nagai | Nguyen et al. (2016)    |
+| #todo | Pre-B     | [5ZWM](https://www.rcsb.org/structure/5ZWM) | 3.4            | Yigong Shi    | Bai et al. (2018)       |
+| x     | B         | [5ZWO](https://www.rcsb.org/structure/5ZWO) | 3.9            | Yigong Shi    | Bai et al. (2018)       |
+| x     | Bact      | [5GM6](https://www.rcsb.org/structure/5GM6) | 3.5            | Yigong Shi    | Yan et al. (2016)       |
+| x     | C         | [5LJ3](https://www.rcsb.org/structure/5LJ3) | 3.8            | Kiyoshi Nagai | Galej et al. (2016)     |
+| x     | C*        | [5MPS](https://www.rcsb.org/structure/5MPS) | 3.85           | Kiyoshi Nagai | Fica et al. (2017)      |
+| x     | P         | [5YLZ](https://www.rcsb.org/structure/5YLZ) | 3.6            | Yigong Shi    | Bai et al. (2017)       |
+| x     | P         | [6EXN](https://www.rcsb.org/structure/6EXN) | 3.7            | Kiyoshi Nagai | Wilkinson et al. (2017) |
+| x     | ILS       | [5Y88](https://www.rcsb.org/structure/5Y88) | 3.5            | Yigong Shi    | Wan et al. (2017)       |
 
-| x | Complex   | Species | PDB ID | Resolution (Å) | Lab           | Reference               |
-|---|-----------|---------|--------|----------------|---------------|-------------------------|
-| x | Tri-snRNP | Human   | 6QW6   | 2.92           | Kiyoshi Nagai | Charenton et al. (2019) |
-| x | Pre-B     | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
-| x | B         | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+Adapted and updated: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
 
-Mechanism of 5' splice site transfer for human spliceosome activation. Charenton, C., Wilkinson, M.E., Nagai, K. (2019) Science 364: 362-367
+<small>
+A unified mechanism for intron and exon definition and back-splicing.  
+Li, X., Liu, S., Zhang, L., Issaian, A., Hill, R.C., Espinosa, S., Shi, S., Cui, Y., Kappel, K., Das, R., Hansen, K.C., Zhou, Z.H., Zhao, R.
+(2019) Nature 573: 375-380  
+6N7P: S. cerevisiae spliceosomal E complex (UBC4)  
+6N7R: S. cerevisiae spliceosomal E complex (ACT1)  
 
-Structures of the human pre-catalytic spliceosome and its precursor spliceosome. Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y. (2018) Cell Res 28: 1129-1140
+Cryo-EM structure of the yeast U4/U6.U5 tri-snRNP at 3.7 angstrom resolution.  
+Nguyen, T.H., Galej, W.P., Bai, X.C., Oubridge, C., Newman, A.J., Scheres, S.H., Nagai, K.  
+(2016) Nature 530: 298-302  
+5GAN: The overall structure of the yeast spliceosomal U4/U6.U5 tri-snRNP at 3.7 Angstrom  
 
-# Select all U6
+Structures of the fully assembled Saccharomyces cerevisiae spliceosome before activation [B and Pre-B]  
+Bai, R., Wan, R., Yan, C., Lei, J., Shi, Y.  
+(2018) Science 360: 1423-1429  
+5ZWM: Cryo-EM structure of the yeast pre-B complex at an average resolution of 3.4~4.6 angstrom (tri-snRNP and U2 snRNP Part)  
+5ZWO: Cryo-EM structure of the yeast B complex at average resolution of 3.9 angstrom  
+
+Structure of a yeast activated spliceosome at 3.5 angstrom resolution  
+Yan, C., Wan, R., Bai, R., Huang, G., Shi, Y.  
+(2016) Science 353: 904-911  
+5GM6 Cryo-EM structure of the activated spliceosome (Bact complex) at 3.5 angstrom resolution  
+
+Cryo-EM structure of the spliceosome immediately after branching.  
+Galej, W.P., Wilkinson, M.E., Fica, S.M., Oubridge, C., Newman, A.J., Nagai, K.  
+(2016) Nature 537: 197-201  
+5LJ3:Structure of the core of the yeast spliceosome immediately after branching  
+
+Structure of a spliceosome remodelled for exon ligation.  
+Fica, S.M., Oubridge, C., Galej, W.P., Wilkinson, M.E., Bai, X.C., Newman, A.J., Nagai, K.  
+(2017) Nature 542: 377-380  
+5MPS: Structure of a spliceosome remodeled for exon ligation  
+
+Structure of the Post-catalytic Spliceosome from Saccharomyces cerevisiae  
+Bai, R., Yan, C., Wan, R., Lei, J., Shi, Y.  
+(2017) Cell 171: 1589-1598.e8  
+5YLZ: Cr yo-EM Structure of the Post-catalytic Spliceosome from Saccharomyces cerevisiae at 3.6 angstrom  
+
+Postcatalytic spliceosome structure reveals mechanism of 3'-splice site selection.  
+Wilkinson, M.E., Fica, S.M., Galej, W.P., Norman, C.M., Newman, A.J., Nagai, K.  
+(2017) Science 358: 1283-1288  
+6EXN: Post-catalytic P complex spliceosome with 3' splice site docked  
+
+Structure of an Intron Lariat Spliceosome from Saccharomyces cerevisiae  
+Wan, R., Yan, C., Bai, R., Lei, J., Shi, Y.  
+(2017) Cell 171: 120-132  
+5Y88: Cryo-EM structure of the intron-lariat spliceosome ready for disassembly from S.cerevisiae at 3.5 angstrom  
+</small>
+
+## Human
+
+| x | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
+|---|-----------|---------------------------------------------|----------------|---------------|-------------------------|
+| x | Tri-snRNP | [6QW6](https://www.rcsb.org/structure/6QW6) | 2.92           | Kiyoshi Nagai | Charenton et al. (2019) |
+| x | Pre-B     | [6QX9](https://www.rcsb.org/structure/6QX9) | 3.28           | Kiyoshi Nagai | Charenton et al. (2019) |
+| x | B         | [6AHD](https://www.rcsb.org/structure/6AHD) | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+
+Mechanism of 5' splice site transfer for human spliceosome activation.  
+Charenton, C., Wilkinson, M.E., Nagai, K.  
+(2019) Science 364: 362-367  
+6QW6: Structure of the human U5.U4/U6 tri-snRNP at 2.9A resolution.  
+6QX9: Structure of a human fully-assembled precatalytic spliceosome (pre-B complex).  
+
+Structures of the human pre-catalytic spliceosome and its precursor spliceosome.  
+Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y.  
+(2018) Cell Res 28: 1129-1140  
+6AHD: The Cryo-EM Structure of Human Pre-catalytic Spliceosome (B complex) at 3.8 angstrom resolution  
+
+# Find your favorite protein!
+![](docs/index.jpeg)
+<small>Assembly, catalytic activation, and disassembly pathway of the spliceosome. For simplicity, the ordered interactions of the U1, U2, U4/
+U6, and U5 small nuclear ribonucleoproteins (snRNPs), but not non-snRNP spliceosomal proteins, are shown.
+Helicases required for splicing in both yeast and humans are indicated and include the Ski2-like helicase BBR2, the
+DEAD-box helicases UAP56, PRP5, and PRP28, and the DEAH-box helicases PRP2, PRP16, PRP22, and PRP43. (D)
+Dynamic network of RNA–RNA interactions in the spliceosomal B and Bact complexes. (E) 3D structure of the
+catalytic RNA network (in the human C∗ complex), showing the coordination of the catalytic magnesium ions M1
+and M2. (F) Dynamic exchange of spliceosomal proteins during splicing. Proteins present in pre-B, B, Bact, C, or C∗
+human spliceosomal complexes are indicated by a square, in which blue denotes highly abundant and gray moder-
+ately abundant proteins. Serine-arginine (SR) dipeptide-rich proteins and heterogeneous nuclear ribonucleoproteins
+(hnRNPs), as well as those present in very low amounts, are not shown. The table summarizes the proteomes of
+various, recently purified human spliceosomal complexes (Agafonov et al. 2011; De et al. 2015; Boesler et al. 2016; Bertram et al. 2017b), as well as our unpublished work.
+*Prp38 and Snu23 are associated with the tri-snRNP in S. cerevisiae. (G) Differential pre-organization of yeast nineteen complex (NTC) proteins in humans.  
+</small>
+
+Source: B. Kastner, C. L. Will, H. Stark, and R. Luhrmann, “Structural Insights into Nuclear pre-mRNA Splicing in Higher Eukaryotes.,” Cold Spring Harbor Perspectives in Biology, pp. a032417–20, Feb. 2019.
+
+# Examples of usage
+## Select all U6
 
 ![](docs/demo-u6.gif)
 
-# Morph between two main conformations of U6
+## Morph between two main conformations of U6
 
 ![](docs/demo-u6-morph.gif)
 
@@ -69,13 +181,13 @@ Structures of the human pre-catalytic spliceosome and its precursor spliceosome.
 
     select U4* and resi 68-81
     
-Read more: https://pymolwiki.org/index.php/Enable
+Read more: <https://pymolwiki.org/index.php/Enable>
 
 # External
 
 You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/> and here <https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions>
 
-# Aligned
+# Notes
 
 	save aligned/hB_6AHD.pdb, PRP_hB_6AHD
 	
@@ -90,13 +202,13 @@ You can also download sessions for single steps prepared by the Nagai lab: <http
 	align 6QW6 and chain 5A, PRP8_hB_6AHD	
 	save h3_6QW6.cif, 6QW6
 
-# Rings as one object
+Rings as one object
 
 	extract Lsm_ring_h3_6QW6, (chain 62 and h3_6QW6) or (chain 64 and h3_6QW6)
 	
 	extract Lsm_ring_h3_6QW6, (chain 62 or chain 64) and h3_6QW6
 
-# Sandbox
+Sandbox
 
 	PyMOL>select chain 5A and name hBpre_6QX9
     Selector: selection "sele" defined with 0 atoms.
@@ -115,15 +227,7 @@ M.M. was supported by the "Regenerative Mechanisms for Health-ReMedy" grant MAB/
 
 # Supplements
 
+![](docs/tab1_Zhao.jpeg)
+Table 1: Source: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
 
-yBa_5GM6
-5GM6
-Cryo-EM structure of the activated spliceosome (Bact complex) at 3.5 angstrom resolution
-
-Structure of a yeast activated spliceosome at 3.5 angstrom resolution
-Yan, C., Wan, R., Bai, R., Huang, G., Shi, Y.
-(2016) Science 353: 904-911
-
-PubMed: 27445306 Search on PubMed
-DOI: 10.1126/science.aag0291
 
