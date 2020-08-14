@@ -73,49 +73,51 @@ All processed structures can be viewed and searched in this repository:
 Adapted and updated: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
 
 <small>
-A unified mechanism for intron and exon definition and back-splicing.  
+	
+*A unified mechanism for intron and exon definition and back-splicing.  *
 Li, X., Liu, S., Zhang, L., Issaian, A., Hill, R.C., Espinosa, S., Shi, S., Cui, Y., Kappel, K., Das, R., Hansen, K.C., Zhou, Z.H., Zhao, R.
 (2019) Nature 573: 375-380  
 6N7P: S. cerevisiae spliceosomal E complex (UBC4)  
 6N7R: S. cerevisiae spliceosomal E complex (ACT1)  
 
-Cryo-EM structure of the yeast U4/U6.U5 tri-snRNP at 3.7 angstrom resolution.  
+
+*Cryo-EM structure of the yeast U4/U6.U5 tri-snRNP at 3.7 angstrom resolution.  *
 Nguyen, T.H., Galej, W.P., Bai, X.C., Oubridge, C., Newman, A.J., Scheres, S.H., Nagai, K.  
 (2016) Nature 530: 298-302  
 5GAN: The overall structure of the yeast spliceosomal U4/U6.U5 tri-snRNP at 3.7 Angstrom  
 
-Structures of the fully assembled Saccharomyces cerevisiae spliceosome before activation [B and Pre-B]  
+*Structures of the fully assembled Saccharomyces cerevisiae spliceosome before activation*
 Bai, R., Wan, R., Yan, C., Lei, J., Shi, Y.  
 (2018) Science 360: 1423-1429  
 5ZWM: Cryo-EM structure of the yeast pre-B complex at an average resolution of 3.4~4.6 angstrom (tri-snRNP and U2 snRNP Part)  
 5ZWO: Cryo-EM structure of the yeast B complex at average resolution of 3.9 angstrom  
 
-Structure of a yeast activated spliceosome at 3.5 angstrom resolution  
+*Structure of a yeast activated spliceosome at 3.5 angstrom resolution*  
 Yan, C., Wan, R., Bai, R., Huang, G., Shi, Y.  
 (2016) Science 353: 904-911  
 5GM6 Cryo-EM structure of the activated spliceosome (Bact complex) at 3.5 angstrom resolution  
 
-Cryo-EM structure of the spliceosome immediately after branching.  
+*Cryo-EM structure of the spliceosome immediately after branching.  *
 Galej, W.P., Wilkinson, M.E., Fica, S.M., Oubridge, C., Newman, A.J., Nagai, K.  
 (2016) Nature 537: 197-201  
 5LJ3:Structure of the core of the yeast spliceosome immediately after branching  
 
-Structure of a spliceosome remodelled for exon ligation.  
+*Structure of a spliceosome remodelled for exon ligation.  *
 Fica, S.M., Oubridge, C., Galej, W.P., Wilkinson, M.E., Bai, X.C., Newman, A.J., Nagai, K.  
 (2017) Nature 542: 377-380  
 5MPS: Structure of a spliceosome remodeled for exon ligation  
 
-Structure of the Post-catalytic Spliceosome from Saccharomyces cerevisiae  
+*Structure of the Post-catalytic Spliceosome from Saccharomyces cerevisiae  *
 Bai, R., Yan, C., Wan, R., Lei, J., Shi, Y.  
 (2017) Cell 171: 1589-1598.e8  
 5YLZ: Cr yo-EM Structure of the Post-catalytic Spliceosome from Saccharomyces cerevisiae at 3.6 angstrom  
 
-Postcatalytic spliceosome structure reveals mechanism of 3'-splice site selection.  
+*Postcatalytic spliceosome structure reveals mechanism of 3'-splice site selection.  *
 Wilkinson, M.E., Fica, S.M., Galej, W.P., Norman, C.M., Newman, A.J., Nagai, K.  
 (2017) Science 358: 1283-1288  
 6EXN: Post-catalytic P complex spliceosome with 3' splice site docked  
 
-Structure of an Intron Lariat Spliceosome from Saccharomyces cerevisiae  
+*Structure of an Intron Lariat Spliceosome from Saccharomyces cerevisiae  *
 Wan, R., Yan, C., Bai, R., Lei, J., Shi, Y.  
 (2017) Cell 171: 120-132  
 5Y88: Cryo-EM structure of the intron-lariat spliceosome ready for disassembly from S.cerevisiae at 3.5 angstrom  
@@ -129,13 +131,13 @@ Wan, R., Yan, C., Bai, R., Lei, J., Shi, Y.
 | x | Pre-B     | [6QX9](https://www.rcsb.org/structure/6QX9) | 3.28           | Kiyoshi Nagai | Charenton et al. (2019) |
 | x | B         | [6AHD](https://www.rcsb.org/structure/6AHD) | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
 
-Mechanism of 5' splice site transfer for human spliceosome activation.  
+*Mechanism of 5' splice site transfer for human spliceosome activation.  *
 Charenton, C., Wilkinson, M.E., Nagai, K.  
 (2019) Science 364: 362-367  
 6QW6: Structure of the human U5.U4/U6 tri-snRNP at 2.9A resolution.  
 6QX9: Structure of a human fully-assembled precatalytic spliceosome (pre-B complex).  
 
-Structures of the human pre-catalytic spliceosome and its precursor spliceosome.  
+*Structures of the human pre-catalytic spliceosome and its precursor spliceosome.  *
 Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y.  
 (2018) Cell Res 28: 1129-1140  
 6AHD: The Cryo-EM Structure of Human Pre-catalytic Spliceosome (B complex) at 3.8 angstrom resolution  
