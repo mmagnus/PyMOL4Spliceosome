@@ -233,3 +233,5 @@ M.M. was supported by the "Regenerative Mechanisms for Health-ReMedy" grant MAB/
 Table 1: Source: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
 
 
+
+![](docs/fig_cycle_Zhao.jpeg)
