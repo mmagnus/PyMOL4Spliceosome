@@ -25,67 +25,6 @@ See https://github.com/mmagnus/PyMOL4Spliceosome/releases
 
 and read more about the tool used to obtain this session: https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/README.md
 
-
-## Select all U6
-
-![](docs/demo-u6.gif)
-
-## Morph between two main conformations of U6
-
-![](docs/demo-u6-morph.gif)
-
-## Tips
-
-    With Up Down with Righ-mouse Click
-
-## Quick reference
-
-	PyMOL>enable CWC15*
-	PyMOL>disable CWC15*
-
-    # select only some objects and save it to the file
-    save /Users/magnus/Desktop/XXXX_triplex_zoom.pse, CXXX_P and U2_P and U6_P
-
-    select U4* and resi 68-81
-    
-Read more: https://pymolwiki.org/index.php/Enable
-
-## External
-
-You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/> and here <https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions>
-
-## Aligned
-
-	save aligned/hB_6AHD.pdb, PRP_hB_6AHD
-	
-	align h3_6QW6 and chain 5A, PRP8_hB_6AHD
-	save 
-	
-	fetch 6QX9
-	align 6QX9 and chain 5A, PRP8_hB_6AHD	
-	save hBpre_6QX9.cif, 6QX9
-
-	fetch 6QW6
-	align 6QW6 and chain 5A, PRP8_hB_6AHD	
-	save h3_6QW6.cif, 6QW6
-
-## Rings as one object
-
-	extract Lsm_ring_h3_6QW6, (chain 62 and h3_6QW6) or (chain 64 and h3_6QW6)
-	
-	extract Lsm_ring_h3_6QW6, (chain 62 or chain 64) and h3_6QW6
-
-# Sandbox
-
-	PyMOL>select chain 5A and name hBpre_6QX9
-    Selector: selection "sele" defined with 0 atoms.
-
-# Changelog
-[dev]
-
-- Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
-- Rings as one
-
 # Index
 
 All processed structures in this repository:
@@ -107,6 +46,66 @@ Update to the Table 1.
 Mechanism of 5' splice site transfer for human spliceosome activation. Charenton, C., Wilkinson, M.E., Nagai, K. (2019) Science 364: 362-367
 
 Structures of the human pre-catalytic spliceosome and its precursor spliceosome. Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y. (2018) Cell Res 28: 1129-1140
+
+# Select all U6
+
+![](docs/demo-u6.gif)
+
+# Morph between two main conformations of U6
+
+![](docs/demo-u6-morph.gif)
+
+# Tips
+
+    With Up Down with Righ-mouse Click
+
+# Quick reference
+
+	PyMOL>enable CWC15*
+	PyMOL>disable CWC15*
+
+    # select only some objects and save it to the file
+    save /Users/magnus/Desktop/XXXX_triplex_zoom.pse, CXXX_P and U2_P and U6_P
+
+    select U4* and resi 68-81
+    
+Read more: https://pymolwiki.org/index.php/Enable
+
+# External
+
+You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/> and here <https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions>
+
+# Aligned
+
+	save aligned/hB_6AHD.pdb, PRP_hB_6AHD
+	
+	align h3_6QW6 and chain 5A, PRP8_hB_6AHD
+	save 
+	
+	fetch 6QX9
+	align 6QX9 and chain 5A, PRP8_hB_6AHD	
+	save hBpre_6QX9.cif, 6QX9
+
+	fetch 6QW6
+	align 6QW6 and chain 5A, PRP8_hB_6AHD	
+	save h3_6QW6.cif, 6QW6
+
+# Rings as one object
+
+	extract Lsm_ring_h3_6QW6, (chain 62 and h3_6QW6) or (chain 64 and h3_6QW6)
+	
+	extract Lsm_ring_h3_6QW6, (chain 62 or chain 64) and h3_6QW6
+
+# Sandbox
+
+	PyMOL>select chain 5A and name hBpre_6QX9
+    Selector: selection "sele" defined with 0 atoms.
+
+# Changelog
+[dev]
+
+- Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
+- Rings as one
 
 # Acknowledgement
 
