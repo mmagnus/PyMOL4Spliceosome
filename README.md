@@ -92,9 +92,30 @@ All processed structures in this repository:
 
 https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/Spliceosome_PyMOL.csv
 
-![](docs/tab1_Zhao.png)
+![](docs/tab1_Zhao.jpeg)
 
-L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
+Source: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
+
+Update to the Table 1.
+
+| Complex   | Species | PDB ID | Resolution (Å) | Lab           | Reference               |
+|-----------|---------|--------|----------------|---------------|-------------------------|
+| Tri-snRNP | Human   | 6QW6   | 2.92           | Kiyoshi Nagai | Charenton et al. (2019) |
+| Pre-B     | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+| B         | Human   | 6AHD   | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
+
+Mechanism of 5' splice site transfer for human spliceosome activation. Charenton, C., Wilkinson, M.E., Nagai, K. (2019) Science 364: 362-367
+
+Structures of the human pre-catalytic spliceosome and its precursor spliceosome. Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y. (2018) Cell Res 28: 1129-1140
+
+# Acknowledgement
+
+ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
+
+M.M. was supported by the "Regenerative Mechanisms for Health-ReMedy" grant MAB/20172, carried out within the International Research Agendas Program of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund.
+
+# Supplements
+
 
 yBa_5GM6
 5GM6
@@ -107,10 +128,3 @@ Yan, C., Wan, R., Bai, R., Huang, G., Shi, Y.
 PubMed: 27445306 Search on PubMed
 DOI: 10.1126/science.aag0291
 
-(...)
-
-# Acknowledgement
-
-ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
-
-M.M. was supported by the "Regenerative Mechanisms for Health-ReMedy" grant MAB/20172, carried out within the International Research Agendas Program of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund.
