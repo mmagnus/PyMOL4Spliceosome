@@ -83,7 +83,31 @@ You can also download sessions for single steps prepared by the Nagai lab: <http
 # Changelog
 [dev]
 
+- Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
 - Rings as one
+
+# Index
+
+All processed structures in this repository:
+
+https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/Spliceosome_PyMOL.csv
+
+![](docs/tab1_Zhao.png)
+
+L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
+
+yBa_5GM6
+5GM6
+Cryo-EM structure of the activated spliceosome (Bact complex) at 3.5 angstrom resolution
+
+Structure of a yeast activated spliceosome at 3.5 angstrom resolution
+Yan, C., Wan, R., Bai, R., Huang, G., Shi, Y.
+(2016) Science 353: 904-911
+
+PubMed: 27445306 Search on PubMed
+DOI: 10.1126/science.aag0291
+
+(...)
 
 # Acknowledgement
 
