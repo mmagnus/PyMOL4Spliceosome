@@ -65,10 +65,12 @@ All processed structures can be viewed and searched in this repository:
 | x     | B         | [5ZWO](https://www.rcsb.org/structure/5ZWO) | 3.9            | Yigong Shi    | Bai et al. (2018)       |
 | x     | Bact      | [5GM6](https://www.rcsb.org/structure/5GM6) | 3.5            | Yigong Shi    | Yan et al. (2016)       |
 | x     | C         | [5LJ3](https://www.rcsb.org/structure/5LJ3) | 3.8            | Kiyoshi Nagai | Galej et al. (2016)     |
+| x     | C         | [5GMK](https://www.rcsb.org/structure/5GMK) | 3.85           | Yigong Shi    | Wan et al. (2016)       |
 | x     | C*        | [5MPS](https://www.rcsb.org/structure/5MPS) | 3.85           | Kiyoshi Nagai | Fica et al. (2017)      |
 | x     | P         | [5YLZ](https://www.rcsb.org/structure/5YLZ) | 3.6            | Yigong Shi    | Bai et al. (2017)       |
 | x     | P         | [6EXN](https://www.rcsb.org/structure/6EXN) | 3.7            | Kiyoshi Nagai | Wilkinson et al. (2017) |
 | x     | ILS       | [5Y88](https://www.rcsb.org/structure/5Y88) | 3.5            | Yigong Shi    | Wan et al. (2017)       |
+| -     | ILS       | [3JB9](https://www.rcsb.org/structure/3JB9) | 3.60           | Yigong Shi    | Yan et al. (2015)       |
 
 Adapted and updated: L. Zhang, A. Vielle, S. Espinosa, and R. Zhao, “RNAs in the spliceosome: Insight from cryoEM structures,” WIREs RNA, vol. 10, no. 3, pp. e1523–11, Apr. 2019.
 
@@ -102,6 +104,11 @@ Galej, W.P., Wilkinson, M.E., Fica, S.M., Oubridge, C., Newman, A.J., Nagai, K.
 (2016) Nature 537: 197-201  
 5LJ3:Structure of the core of the yeast spliceosome immediately after branching  
 
+Structure of a yeast catalytic step I spliceosome at 3.4 angstrom resolution
+Wan, R., Yan, C., Bai, R., Huang, G., Shi, Y.
+(2016) Science 353: 895-904
+5GMK: Cryo-EM structure of the Catalytic Step I spliceosome (C complex) at 3.4 angstrom resolution
+
 *Structure of a spliceosome remodelled for exon ligation.*  
 Fica, S.M., Oubridge, C., Galej, W.P., Wilkinson, M.E., Bai, X.C., Newman, A.J., Nagai, K.  
 (2017) Nature 542: 377-380  
@@ -121,6 +128,11 @@ Wilkinson, M.E., Fica, S.M., Galej, W.P., Norman, C.M., Newman, A.J., Nagai
 Wan, R., Yan, C., Bai, R., Lei, J., Shi, Y.  
 (2017) Cell 171: 120-132  
 5Y88: Cryo-EM structure of the intron-lariat spliceosome ready for disassembly from S.cerevisiae at 3.5 angstrom  
+
+Structure of a yeast spliceosome at 3.6-angstrom resolution
+Yan, C., Hang, J., Wan, R., Huang, M., Wong, C., Shi, Y.
+(2015) Science 349: 1182-1191
+3JB9: Cryo-EM structure of the yeast spliceosome at 3.6 angstrom resolution
 </small>
 
 ## Human
@@ -203,6 +215,10 @@ You can also download sessions for single steps prepared by the Nagai lab: <http
 	fetch 6QW6
 	align 6QW6 and chain 5A, PRP8_hB_6AHD	
 	save h3_6QW6.cif, 6QW6
+
+	PyMOL> align yC_5GMK and chain A, PRP8*
+	PyMOL>save yC_5GMK.cif, yC_5GMK
+	 Save: wrote "yC_5GMK.cif".
 
 Rings as one object
 
