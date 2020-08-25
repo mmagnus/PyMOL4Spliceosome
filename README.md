@@ -39,7 +39,7 @@ Processed PyMOL session of cryo-em structures, see <https://github.com/mmagnus/P
 
 The structures superimposed based on the U6 RNA (if possible) or Prp8.
 
-Colors and chain mapping based on pyMoL_colors-EMX.xlsx prepared by Eysmont and Magnus.
+Colors and chain mapping based on [Spliceosome_PyMOL](https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/Spliceosome_PyMOL.csv) prepared by Eysmont and Magnus, merged with https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions.
 
 Not everything is perfect, expect some updates soon.
 
@@ -154,6 +154,16 @@ Zhan, X., Yan, C., Zhang, X., Lei, J., Shi, Y.
 (2018) Cell Res 28: 1129-1140  
 6AHD: The Cryo-EM Structure of Human Pre-catalytic Spliceosome (B complex) at 3.8 angstrom resolution  
 
+## Pombe
+
+| x | Complex | PDB ID                                      | Resolution (Å) | Lab        | Reference          |
+|---|---------|---------------------------------------------|----------------|------------|--------------------|
+| x | ILS     | [3JB9](https://www.rcsb.org/structure/3JB9) | 3.60           | Yigong Shi | Yuan et al. (2015) |
+
+*Structure of a yeast spliceosome at 3.6-angstrom resolution*__
+Yan, C., Hang, J., Wan, R., Huang, M., Wong, C., Shi, Y.
+(2015) Science 349: 1182-1191
+
 # Find your favorite protein!
 ![](docs/index.jpeg)
 <small>Assembly, catalytic activation, and disassembly pathway of the spliceosome. For simplicity, the ordered interactions of the U1, U2, U4/
@@ -202,6 +212,7 @@ Read more: <https://pymolwiki.org/index.php/Enable>
 You can also download sessions for single steps prepared by the Nagai lab: <https://www2.mrc-lmb.cam.ac.uk/groups/nagai/resources/> and here <https://github.com/maxewilkinson/Spliceosome-PyMOL-sessions>
 
 # Notes
+200820 Format for objects: <protein(uppercase)>_<organism: [y h]><stage [yC yCs]>_<pdb_id(uppercase)>, .e.g, CWC15_yC_5GMK
 
 	save aligned/hB_6AHD.pdb, PRP_hB_6AHD
 	
@@ -220,6 +231,12 @@ You can also download sessions for single steps prepared by the Nagai lab: <http
 	PyMOL>save yC_5GMK.cif, yC_5GMK
 	 Save: wrote "yC_5GMK.cif".
 
+	align hC_5YZG and chain F, U6_yC_5GMK
+	save hC_5YZG.cif, hC_5YZG
+	
+	align 5XJC and chain F, U6_*
+	save hCs_5XJC.cif, 5XJC
+
 Rings as one object
 
 	extract Lsm_ring_h3_6QW6, (chain 62 and h3_6QW6) or (chain 64 and h3_6QW6)
@@ -232,10 +249,16 @@ Sandbox
     Selector: selection "sele" defined with 0 atoms.
 
 # Changelog
-[dev]
+v1.1
 
+yB_5ZWO.pse
+- merge all LSM into LSM2-8
+- upper case for YSF3_B5zwo
+
+pI_3JB9 [new]
+- prp5 is prp46 (I think it is), so K goes next to prp46
 - Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
-- Rings as one
+
 
 # Acknowledgement
 

@@ -1,2 +1,7 @@
 bucket/*
 sandbox/
+context/*
+mechanism/*
+release*
+simrnp*
+splgraph
