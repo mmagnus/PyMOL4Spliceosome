@@ -2,7 +2,7 @@
 
 [![Twitter Follow](http://img.shields.io/twitter/follow/rna_tools.svg?style=social&label=Follow)](https://twitter.com/rna_tools) [![tag](https://img.shields.io/github/release/mmagnus/PyMOL4Spliceosome.svg)](https://github.com/mmagnus/PyMOL4Spliceosome/releases) [![DOI](https://zenodo.org/badge/doi/10.1093/nar/gkz1108.svg)](http://dx.doi.org/10.1093/nar/gkz1108)
 
-This project is a part of my rna-tools, so please cite this paper if you find this repository useful for you:
+This project is a part of my [rna-tools](https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/), so please cite this paper if you find this repository useful for you:
 
 	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. 
 	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, 
