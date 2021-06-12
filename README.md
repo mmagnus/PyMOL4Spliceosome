@@ -4,10 +4,12 @@
 
 This project is a part of my [rna-tools](https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/), so please cite this paper if you find this repository useful for you:
 
-	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. 
-	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, 
-	and evaluation tools. 
+	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, 
+	Westhof E, Szachniuk M, Miao Z. 
+	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, 
+	structure manipulation, and evaluation tools. 
 	Nucleic Acids Research. 2019 10.1093/nar/gkz1108 
+	
 <https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330>
 
 Table of Contents
