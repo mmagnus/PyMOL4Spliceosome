@@ -58,7 +58,7 @@ All processed structures can be viewed and searched in this repository:
 
 ## Yeast
 
-| x     | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
+| Processed?     | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
 |-------|-----------|---------------------------------------------|----------------|---------------|-------------------------|
 | x     | E         | [6N7P](https://www.rcsb.org/structure/6N7P) | 3.6            | Rui Zhao      | Li et al. (2019)        |
 | x     | E         | [6N7R](https://www.rcsb.org/structure/6N7R) | 3.20           | Rui Zhao      | Li et al. (2019)        |
