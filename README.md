@@ -26,7 +26,6 @@ Table of Contents
 * [Quick reference](#quick-reference)
 * [External](#external)
 * [Notes](#notes)
-* [Changelog](#changelog)
 * [Acknowledgement](#acknowledgement)
 * [Supplements](#supplements)
 
