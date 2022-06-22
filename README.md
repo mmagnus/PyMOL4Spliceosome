@@ -250,18 +250,6 @@ Sandbox
 	PyMOL>select chain 5A and name hBpre_6QX9
     Selector: selection "sele" defined with 0 atoms.
 
-# Changelog
-v1.1
-
-yB_5ZWO.pse
-- merge all LSM into LSM2-8
-- upper case for YSF3_B5zwo
-
-pI_3JB9 [new]
-- prp5 is prp46 (I think it is), so K goes next to prp46
-- Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
-
-
 # Acknowledgement
 
 ReMedy-International Research Agenda Unit, Centre of New Technologies, University of Warsaw, 02-097 Warsaw, Poland
