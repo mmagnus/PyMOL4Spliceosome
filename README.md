@@ -4,10 +4,12 @@
 
 This project is a part of my [rna-tools](https://github.com/mmagnus/rna-tools/blob/master/rna_tools/tools/PyMOL4RNA/), so please cite this paper if you find this repository useful for you:
 
-	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. 
-	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, 
-	and evaluation tools. 
+	Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, 
+	Westhof E, Szachniuk M, Miao Z. 
+	RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, 
+	structure manipulation, and evaluation tools. 
 	Nucleic Acids Research. 2019 10.1093/nar/gkz1108 
+	
 <https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330>
 
 Table of Contents
@@ -24,7 +26,6 @@ Table of Contents
 * [Quick reference](#quick-reference)
 * [External](#external)
 * [Notes](#notes)
-* [Changelog](#changelog)
 * [Acknowledgement](#acknowledgement)
 * [Supplements](#supplements)
 
@@ -56,7 +57,7 @@ All processed structures can be viewed and searched in this repository:
 
 ## Yeast
 
-| x     | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
+| Processed?     | Complex   | PDB ID                                      | Resolution (Å) | Lab           | Reference               |
 |-------|-----------|---------------------------------------------|----------------|---------------|-------------------------|
 | x     | E         | [6N7P](https://www.rcsb.org/structure/6N7P) | 3.6            | Rui Zhao      | Li et al. (2019)        |
 | x     | E         | [6N7R](https://www.rcsb.org/structure/6N7R) | 3.20           | Rui Zhao      | Li et al. (2019)        |
@@ -257,23 +258,10 @@ Sandbox
 	PyMOL>select chain 5A and name hBpre_6QX9
     Selector: selection "sele" defined with 0 atoms.
 
-# Changelog
-
-PyMOL>extract SM_ring, SM*
- Save: Please wait -- writing session file...
- Save: wrote "/Users/magnus/work/src/rna-tools/rna_tools/tools/PyMOL4RNA/PyMOL4Spliceosome/release/yCs_5MPS.pse".
-- remove exons
-
-v1.1
-
-yB_5ZWO.pse
-- merge all LSM into LSM2-8
-- upper case for YSF3_B5zwo
-
-pI_3JB9 [new]
-- prp5 is prp46 (I think it is), so K goes next to prp46
-- Exon_Ba/N/ 100-114 gray50 it's intron, not exon, yBa_5GM6.pse
-
+	PyMOL>extract SM_ring, SM*
+	 Save: Please wait -- writing session file...
+	 Save: wrote "/Users/magnus/work/src/rna-tools/rna_tools/tools/PyMOL4RNA/PyMOL4Spliceosome/release/yCs_5MPS.pse".
+	- remove exons
 
 # Acknowledgement
 
