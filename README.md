@@ -143,6 +143,15 @@ Yan, C., Hang, J., Wan, R., Huang, M., Wong, C., Shi, Y.
 | x | Pre-B     | [6QX9](https://www.rcsb.org/structure/6QX9) | 3.28           | Kiyoshi Nagai | Charenton et al. (2019) |
 | x | B         | [6AHD](https://www.rcsb.org/structure/6AHD) | 3.80           | Yigong Shi    | Zhan et al. (2018)      |
 
+[5XJC](https://www.rcsb.org/structure/5XJC)
+
+5XJC Cryo-EM structure of the human spliceosome just prior to exon ligation at 3.6 angstrom
+
+An Atomic Structure of the Human Spliceosome
+Zhang, X., Yan, C., Hang, J., Finci, L.I., Lei, J., Shi, Y.
+(2017) Cell 169: 918-929.e14
+5XJC Cryo-EM structure of the human spliceosome just prior to exon ligation at 3.6 angstrom
+
 *Mechanism of 5' splice site transfer for human spliceosome activation.  *
 Charenton, C., Wilkinson, M.E., Nagai, K.  
 (2019) Science 364: 362-367  
@@ -249,6 +258,12 @@ Sandbox
     Selector: selection "sele" defined with 0 atoms.
 
 # Changelog
+
+PyMOL>extract SM_ring, SM*
+ Save: Please wait -- writing session file...
+ Save: wrote "/Users/magnus/work/src/rna-tools/rna_tools/tools/PyMOL4RNA/PyMOL4Spliceosome/release/yCs_5MPS.pse".
+- remove exons
+
 v1.1
 
 yB_5ZWO.pse
